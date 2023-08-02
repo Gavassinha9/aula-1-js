@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="contact">
+        <h1>Contact</h1>
+
+        <Label for="nome">Nome</Label>
+        <input type="text" id="nomeid" placeholder="Insert your name" required="required" name="nome"  />
+
+        <label for="fone">Telefone</label>
+        <input type="tel" id="foneid" placeholder="(xx)xxxx-xxxx" required="required" name="fone"/>
+        
+        <label for="email">E-mail</label>
+        <input type="email" id="emailid" placeholder="Insert your e-mail" required="required" name="email"/>
+
+        <label for="cep">CEP</label>
+        <input type="cep" id="cepid" placeholder="Insert your cep" required="required" name="cep"/>
+
+        <label for="logradouro">Logradouro</label>
+        <input type="lograduro" id="logradouroid" placeholder="Insert your logradouro" required="required" name="logradouro"/>
+
+        <label for="cidade">Cidade</label>
+        <input type="Cidade" id="cidadeid" placeholder="Insert your cidade" required="required" name="cidade"/>
+    
+        <label for="uf">UF</label>
+        <input type="uf" id="ufid" placeholder="Insert your uf" required="required" name="uf"/>
+
+
+
+        
+
+        <textarea placeholder="Insert your comments"></textarea>
+
+        <input type="submit" class="enviar" onclick="Enviar();" value="Send"/>
+
+    </form>
+
+    <script type="text/javascript" src="forms.js"></script>
+    
+
+</body>
+</html>
